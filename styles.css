@@ -1,0 +1,133 @@
+html {
+  scroll-behavior: smooth; 
+}
+
+
+
+.navbar {
+ background-color: pink !important;
+  
+}
+
+.navbar-brand {
+  color: #ffffff !important;
+}
+
+.nav-link {
+  color: #ffffff !important;
+}
+
+.navbar-brand:hover, .nav-link:hover {
+  color: #000000 !important;
+  transform: scale(1.1);
+}
+
+.dropdown-menu {
+  background-color: #ffffff;
+}
+@media (max-width: 600px){
+  .carousel {
+    display: none;
+}
+ }
+
+.carousel-caption {
+  background-color: rgba(0,0,0,0.5);
+  width; 40%;
+  margin: auto;
+}
+
+.fa-row {
+  background-color: pink;
+  text-align: center;
+  padding-top: 35px;
+  color: #ffffff;
+}
+
+.fab-link-label, .fab-link {
+  color: #ffffff;
+  
+}
+
+.fab-link-label:hover, .fab-link:hover {
+color: #000000;
+text-decoration: none;
+}
+
+.fab-link-label, .fab-link {
+color: #ffffff;
+}
+
+.fab, .fas {
+  font-size: 60px;
+}
+ 
+
+
+.fab:hover, .fas:hover {
+  color: #000000;
+  transform: scale(1.1);
+}
+
+
+.fab-link:hover {
+  color: #000000;
+  font-weight: bold;
+}
+
+
+.footer-row {
+  background-color: pink;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer-row a {
+  color: #ffffff;
+ 
+}
+
+.footer-row a:hover {
+  color: #000000;
+  text-decoration: none;
+ 
+}
+
+.project-videos{
+  text-align: center;
+  padding: 20px 0px 20px 0px;
+}
+
+video{
+  width: 560px;
+  height: 315px;
+  object-fit: cover;
+}
+
+.gallery-row {
+  text-align: center;
+  position: relative;
+  padding: 30px;
+}
+
+.cropped {
+  width: 300px;
+  height: 300px;
+}
+
+.cropped-1 {
+ object-fit: cover;
+}
+
+.cropped-2 {
+  object-fit: cover;
+  object-position: 20% 0;
+}
+
+.cropped-3 {
+   object-fit: cover;
+  object-position: 20% 0;
+}
